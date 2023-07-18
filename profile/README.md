@@ -48,7 +48,7 @@ We've considered the positives and negatives of doing so and have found that the
 
 - ✅ External developers can be onboarded more easily, as there is a lower bar to entry.
 - ✅ It is now possible to contribute to Eiradir without the commitment that comes with having to join the core team.
-- ✅ Even during times of inactivity among one or more of the core team members, development of the project is not forced into a halt, as the infrastructure is now in place to accept contributions without having to go through a multi-step setup process.
+- ✅ Even during times of inactivity among one or more of the core team members, development of the project is not forced into a halt, as the infrastructure is now in place to accept contributions without directly relying on the core team.
 - ✅ Our developers are encouraged to document things more thoroughly, as internal word-of-mouth is no longer a sufficient way of knowledge sharing when allowing external collaborators.
 - ✅ We can make use of many of the perks that platforms offer to Open Source projects, free of charge.
 - ⛔ We lose exclusivity; however, not only would a claim to exclusivity be in direct contrast to our mission statement and core motivations, but we've also come to the understanding that exclusivity alone is not a means of retaining users, and given the rather niche nature of a game like Eiradir, we also don't have to worry about losing out on any monetary gains.
