@@ -2,6 +2,10 @@
 
 Eiradir is an open source online roleplaying game with a focus on textual roleplay and live character interaction.
 
+- [Mission Statemnet](#mission-statement)
+- [Past & Present](#past--present)
+- [Going Open Source](#going-open-source)
+
 ## Mission Statement
 
 Eiradir was founded in September of 2011 as an attempt to create a free to play enforced-roleplay online fantasy game put forth by a group of seasoned roleplayers.
@@ -35,3 +39,27 @@ However, good things would not last, and this time we were finding trouble on tw
 
 This puts us into our current position. The reason I've been avoiding talking about Eiradir progress over these years is because it would be reasonable to expect much more progress and results after so much time has passed. But unfortunately, the only thing we have to show is some outdated screenshots of projects that are no longer running, and a huge amount of experience, including what not to do when trying to release a game.
 That said, we do still want to create Eiradir, especially after the great turnout of Season 4 of our Project Zomboid roleplay server. This isn't a "we're giving up" post, it's more so an acknowledgment of "we know it's taking forever and it's indeed ridiculous"; so that when we do share further information or launch a server, you won't go in expecting to see the fruits of 12 hard years of work, because that's not how the fruits grew. :)
+
+## Going Open Source
+
+With the project being picked back up this year, we've now also decided to make the sources of this latest iteration of Eiradir open source.
+
+We've considered the positives and negatives of doing so and have found that the potential benefits far outweigh the downsides:
+
+- ✅ External developers can be onboarded more easily, as there is a lower bar to entry.
+- ✅ It is now possible to contribute to Eiradir without the commitment that comes with having to join the core team.
+- ✅ Even during times of inactivity among one or more of the core team members, development of the project is not forced into a halt, as the infrastructure is now in place to accept contributions without having to go through a multi-step setup process.
+- ✅ Our developers are encouraged to document things more thoroughly, as internal word-of-mouth is no longer a sufficient way of knowledge sharing when allowing external collaborators.
+- ✅ We can make use of many of the perks that platforms offer to Open Source projects, free of charge.
+- ⛔ We lose exclusivity; however, not only would a claim to exclusivity be in direct contrast to our mission statement and core motivations, but we've also come to the understanding that exclusivity alone is not a means of retaining users, and given the rather niche nature of a game like Eiradir, we also don't have to worry about losing out on any monetary gains.
+- ⛔ We lose secrecy; this drawback seems more reasonable than the lack of exclusivity. In a game with a strong focus on story-telling and the game's atmosphere, putting everything that makes up that world out into the open carries the risk of breaking the illusion and prevents us from implementing secrets, surprise encounters, or preparing ingame events without doing so in the public eye.
+
+To address the lack of secrecy, we will likely be setting up an additional private content repository whose purpose will be holding all the scripts and data that are strictly specific to *Eiradir* (i.e. our official development strain and game server), while the client and server itself as well as any content that is not (or no longer) deemed in need of secrecy will be published within their respective open source repositories.
+
+A notable and necessary exception to this decision comes to our graphical assets and audio assets.
+
+- Some of our assets were specifically licensed for use in Eiradir, and it is not within our rights to broaden that scope without individually having them relicensed by the original author.
+- Some of our assets are not ours but were published under (different) open source licenses themselves - these will still be distributed in our repository, but the differing license will be noted and included.
+- Some of our assets are heavily edited derivatives of amateur photography that we cannot individually attribute to their source material. While we feel confident enough in using these graphics for our limited and small-scale purposes, we cannot in good conscience offer them up for others to use under our permissive license terms.
+
+As for previous iterations of Eiradir (such as the Unity 3d version, or the 2012 Slick version), we've decided to keep those closed source. This is mainly a question of the effort it would take to individually verify our ability to redistribute/relicense their content, and since development of those versions has been discontinued, it's not worth the time it would take to get them ready for publication.
