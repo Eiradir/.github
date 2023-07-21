@@ -2,7 +2,7 @@
 
 Eiradir is an open source online roleplaying game with a focus on textual roleplay and live character interaction.
 
-- [Mission Statemnet](#mission-statement)
+- [Mission Statement](#mission-statement)
 - [Past & Present](#past--present)
 - [Going Open Source](#going-open-source)
 
